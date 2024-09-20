@@ -168,4 +168,14 @@ body {
     border-radius: 15px;
     font-size: 20px;
   }
+
+  .container-instagram > .midias > ul > li a {
+    text-decoration: none;
+    color: #c9f31d;
+    background-color: #000;
+    font-weight: 600;
+    border: 1px dotted #000;
+    border-radius: 50px;
+    padding: 3px 11px 4px 11px;
+  }
 }
