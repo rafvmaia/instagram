@@ -160,8 +160,8 @@ body {
 
   .container-instagram > .botoes > ul > li a {
     text-decoration: none;
-    background-color: #fff;
-    color: black;
+    background-color: #000;
+    color: #fff;
     font-weight: 600;
     margin-bottom: 20px;
     padding: 10px 25px 10px 25px;
