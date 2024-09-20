@@ -1,167 +1,171 @@
-body{
-    background-color: #C9F31D;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  background-color: #c9f31d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container-instagram{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
-    padding: 50px;
-    width: 650px;
+.container-instagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  padding: 50px;
+  width: 650px;
 }
 
-.container-instagram .descricao{
-    width: 650px;
+.container-instagram .descricao {
+  width: 650px;
 }
 
-.container-instagram .descricao p{
-    font-family: "Poppins";
-    text-align: center;
-    line-height: 30px;
-    font-weight: 400;
+.container-instagram .descricao p {
+  font-family: "Poppins";
+  text-align: center;
+  line-height: 30px;
+  font-weight: 400;
 }
 
-.container-instagram .botoes{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.container-instagram .botoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.container-instagram > .botoes > ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
+.container-instagram > .botoes > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
 }
-.container-instagram > .botoes > ul > li{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    font-family: "Poppins";
-    text-align: center;
-    align-items: center;
+.container-instagram > .botoes > ul > li {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-family: "Poppins";
+  text-align: center;
+  align-items: center;
 }
-.container-instagram > .botoes > ul > li a{
-    text-decoration: none;
-    background-color: #000;
-    color: #fff;
-    font-weight: 500;
-    margin-bottom: 20px;
-    padding: 15px;
-    border-radius: 15px;
+.container-instagram > .botoes > ul > li a {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 15px;
 }
-.container-instagram > .botoes > ul > li a:hover{
-    background-color: #fff;
-    color: #000;
+.container-instagram > .botoes > ul > li a:hover {
+  background-color: #fff;
+  color: #000;
 }
-.container-instagram > .cursos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.container-instagram > .cursos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.container-instagram > .cursos h1{
-    font-family: "Poppins";
-    font-size: 40px;
-    padding: 10px;
+.container-instagram > .cursos h1 {
+  font-family: "Poppins";
+  font-size: 40px;
+  padding: 10px;
 }
-.container-instagram > .cursos img{
-    width: 480px;
-    border-radius: 20px;
-    align-items: center;
-    justify-content: center;
+.container-instagram > .cursos img {
+  width: 480px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
 }
-.container-instagram > .midias{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-
-.container-instagram > .midias ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0;
-    gap: 20px;
+.container-instagram > .midias {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
-.container-instagram > .midias > ul > li{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    font-family: "Poppins";
-    text-align: center;
-    align-items: center;
-    color: #000;
-    font-size: 35px;
-}
-.container-instagram > .midias > ul > li a{
-    text-decoration: none;
-    color: #C9F31D;
-    background-color: #000;
-    font-weight: 600;
-    border: 1px dotted #000;
-    border-radius: 50px;
-    padding: 8px 20px 8px 20px;
-}
-.container-instagram > .midias > ul > li a:hover{
-    border: 1px dotted #fff;
-    border-radius: 50px;
-    padding: 8px 20px 8px 20px;
-    color: #000;
-    background-color: #fff;
+.container-instagram > .midias ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 20px;
 }
 
-.container-instagram > .botoes img{
-    border-radius: 20px;
-    width: 480px;
-    margin-bottom: 20px;
-    border: 2px solid #fff;
+.container-instagram > .midias > ul > li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-family: "Poppins";
+  text-align: center;
+  align-items: center;
+  color: #000;
+  font-size: 35px;
+}
+.container-instagram > .midias > ul > li a {
+  text-decoration: none;
+  color: #c9f31d;
+  background-color: #000;
+  font-weight: 600;
+  border: 1px dotted #000;
+  border-radius: 50px;
+  padding: 8px 20px 8px 20px;
+}
+.container-instagram > .midias > ul > li a:hover {
+  border: 1px dotted #fff;
+  border-radius: 50px;
+  padding: 8px 20px 8px 20px;
+  color: #000;
+  background-color: #fff;
+}
+
+.container-instagram > .botoes img {
+  border-radius: 20px;
+  width: 480px;
+  margin-bottom: 20px;
+  border: 2px solid #fff;
 }
 
 @media (max-width: 767px) {
-    .container-instagram{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        width: 100%;
-    }
-    .container-instagram .descricao{
-        width: 100%;
-    }
-    .container-instagram .descricao p{
-        font-size: 20px;
-        line-height: 35px;
-    }
-    .container-instagram .cursos{
-        width: 100%;
-    }
-    .container-instagram .cursos h1{
-        text-align: center;
-        font-weight: 600;
-        font-size: 45px;
-        line-height: 45px;
-    }
-    .container-instagram .cursos img{
-        width: 100%;
-        border: 2px solid #fff;
-    }
+  .container-instagram {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+  }
+  .container-instagram .descricao {
+    width: 100%;
+  }
+  .container-instagram .descricao p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .container-instagram .cursos {
+    width: 100%;
+  }
+  .container-instagram .cursos h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .container-instagram .cursos img {
+    width: 100%;
+    border: 2px solid #fff;
+  }
 
-    .container-instagram > .botoes > ul > li a{
-        text-decoration: none;
-        background-color: #fff;
-        color: black;
-        font-weight: 600;
-        margin-bottom: 20px;
-        padding: 10px 25px 10px 25px;
-        border-radius: 15px;
-        font-size: 20px;
-    }
+  .container-instagram .botoes img {
+    width: 100%;
+    border: 2px solid #fff;
+  }
+
+  .container-instagram > .botoes > ul > li a {
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 15px;
+    font-size: 20px;
+  }
 }
