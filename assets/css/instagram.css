@@ -178,4 +178,13 @@ body {
     border-radius: 50px;
     padding: 0px 12px 0px 12px;
   }
+
+  .container-instagram > .midias > ul > li a:hover {
+    border: 1px dotted #fff;
+    border-radius: 50px;
+    padding: 0px 12px 0px 12px;
+    color: #000;
+    background-color: #fff;
+  }
+
 }
